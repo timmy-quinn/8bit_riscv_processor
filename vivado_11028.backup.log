@@ -1,0 +1,264 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Nov 17 19:57:38 2022
+# Process ID: 11028
+# Current directory: C:/Users/quinn.ti/Documents/lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16728 C:\Users\quinn.ti\Documents\lab6\lab6.xpr
+# Log file: C:/Users/quinn.ti/Documents/lab6/vivado.log
+# Journal file: C:/Users/quinn.ti/Documents/lab6\vivado.jou
+# Running On: WFXA4BB6DBB7727, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 16881 MB
+#-----------------------------------------------------------
+INFO: [Common 17-724] Xilinx Tcl Store apps are automatically updated.
+start_gui
+open_project C:/Users/quinn.ti/Documents/lab6/lab6.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/tquinn/lab6' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/data_memory_synth_1' of run 'data_memory_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/data_memory_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/data_memory_synth_1' of run 'data_memory_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/data_memory_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/inst_mem_synth_1' of run 'inst_mem_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/inst_mem_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/inst_mem_synth_1' of run 'inst_mem_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/inst_mem_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/vio_0_synth_1' of run 'vio_0_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/vio_0_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/vio_0_synth_1' of run 'vio_0_synth_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/vio_0_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/impl_1' of run 'impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/impl_1' of run 'impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/data_memory_impl_1' of run 'data_memory_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/data_memory_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/data_memory_impl_1' of run 'data_memory_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/data_memory_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/inst_mem_impl_1' of run 'inst_mem_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/inst_mem_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/inst_mem_impl_1' of run 'inst_mem_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/inst_mem_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/vio_0_impl_1' of run 'vio_0_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/vio_0_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/tquinn/lab6/lab6.srcs/utils_1/imports/vio_0_impl_1' of run 'vio_0_impl_1' is not writable, setting it to default location 'C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/vio_0_impl_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 1497.281 ; gain = 274.805
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/synth_1/alu_instrmem_top.dcp with file C:/Users/quinn.ti/Documents/lab6/lab6.runs/synth_1/alu_instrmem_top.dcp
+reset_run inst_mem_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'inst_mem'...
+[Thu Nov 17 19:58:16 2022] Launched inst_mem_synth_1, synth_1...
+Run output will be captured here:
+inst_mem_synth_1: C:/Users/quinn.ti/Documents/lab6/lab6.runs/inst_mem_synth_1/runme.log
+synth_1: C:/Users/quinn.ti/Documents/lab6/lab6.runs/synth_1/runme.log
+[Thu Nov 17 19:58:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1918.273 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 245 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2632.078 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2632.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2632.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 70 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 2786.355 ; gain = 1230.480
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-15:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2803.457 ; gain = 15.816
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4889.848 ; gain = 2086.391
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+current_hw_device [get_hw_devices xc7z020_0]
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'vio' at location 'uuid_1BE27D511A4C50DC974F3E22D2C609B9' from probes file, since it cannot be found on the programmed device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_0]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_0]
+program_hw_devices [get_hw_devices xc7z020_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_0] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+INFO: [Labtools 27-1889] Uploading output probe values for VIO core [hw_vio_1]
+set_property INPUT_VALUE_RADIX UNSIGNED [get_hw_probes alu_input2_instr_src -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes DataMemOut -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes alu_input2_instr_src -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes regfile_ReadData2 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes alu_input1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes nzimm -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes regfile_ReadData1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes regfile_WriteData -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes rs1 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes alu_output -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes instruction -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes pc -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX UNSIGNED [get_hw_probes rd -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes alu_input2 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX UNSIGNED [get_hw_probes offset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes offset -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes opcode -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX BINARY [get_hw_probes opcode -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX SIGNED [get_hw_probes rs2 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+set_property INPUT_VALUE_RADIX HEX [get_hw_probes instruction -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z020_0] -filter {CELL_NAME=~"vio"}]]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/quinn.ti/Documents/lab6/lab6.srcs/utils_1/imports/synth_1/alu_instrmem_top.dcp with file C:/Users/quinn.ti/Documents/lab6/lab6.runs/synth_1/alu_instrmem_top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/quinn.ti/Documents/lab6/lab6.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Nov 17 20:18:12 2022] Launched synth_1...
+Run output will be captured here: C:/Users/quinn.ti/Documents/lab6/lab6.runs/synth_1/runme.log
+[Thu Nov 17 20:18:12 2022] Launched impl_1...
+Run output will be captured here: C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/runme.log
+ERROR: [Xicom 50-38] xicom: Unable to connect to debug core(s) on the target device. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-TUL-1234-tulA" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/quinn.ti/Documents/lab6/lab6.runs/impl_1/alu_instrmem_top.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 17 20:27:35 2022...
